@@ -1,0 +1,217 @@
+/* fonts link start */
+@font-face {
+  src: url(../fonts/BebasNeue/BebasNeue/Commercial/TTF/BebasNeue-Bold.ttf);
+  font-family: BebasNeue-Bold;
+}
+@font-face {
+  src: url(../fonts/BebasNeue/BebasNeue/Commercial/TTF/BebasNeue-Regular.ttf);
+  font-family: BebasNeue-Regular;
+}
+/* fonts link end */
+
+/* common css start */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* common css end */
+/* header start */
+header {
+  padding: 30px 0;
+  background-color: #ffc34e;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  border: 1px solid red;
+  overflow: hidden;
+}
+.logo {
+  width: 21%;
+  border: 1px solid red;
+  float: left;
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  width: 60%;
+  border: 1px solid red;
+  float: right;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  margin: 0 35px;
+  padding: 4px 3px 0px;
+  font-family: BebasNeue-Bold;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3d2514;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+.menu ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* header end */
+/* banner start */
+.banner {
+  padding: 50px 0;
+  background-color: #ffc34e;
+  background-image: url(../images/Banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.b_content {
+  overflow: hidden;
+}
+.b_left {
+  padding-top: 147px;
+  width: 40%;
+  border: 1px solid black;
+  float: left;
+}
+.b_left p {
+  margin: 0;
+  padding: 0 20px;
+  font-family: BebasNeue-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3d2514;
+  text-transform: uppercase;
+  border: 1px dashed #3d2514;
+  display: inline-block;
+}
+.b_left h1 {
+  margin: 0;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 115px;
+  font-weight: 400;
+  color: #3d2514;
+  text-shadow: 5px 5px 1px rgb(255 255 255);
+}
+.b_left h2 {
+  margin: 0;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 58px;
+  font-weight: 400;
+  color: #3d2514;
+  text-shadow: 5px 5px 1px rgb(255 255 255);
+}
+.b_right {
+  position: relative;
+  height: 600px;
+  width: 58%;
+  border: 1px solid black;
+  float: right;
+  overflow: hidden;
+}
+.banner_chips {
+  right: 406px;
+  position: absolute;
+  top: 118px;
+  z-index: 2;
+}
+.banner_coke {
+  position: absolute;
+  right: 85px;
+  top: 70px;
+  z-index: 2;
+}
+.banner_burger {
+  position: absolute;
+  right: 157px;
+  top: 188px;
+  z-index: 3;
+}
+.banner_burger_shadow {
+  position: absolute;
+  top: 540px;
+  left: 111px;
+}
+.banner_coke_shadow {
+  position: absolute;
+  top: 537px;
+  left: 367px;
+}
+.banner_glow {
+  position: absolute;
+  right: -10px;
+  top: -183px;
+  z-index: 1;
+}
+.price {
+  position: absolute;
+  top: 406px;
+  left: 55px;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  z-index: 4;
+}
+/* banner end */
+/* popular start */
+.popular {
+}
+.wrapper {
+  margin: 0 auto;
+  width: 85%;
+  border: 1px solid palevioletred;
+}
+.popular_left {
+  width: 45%;
+  height: 420px;
+  background-image: url(../images/secburgerleft.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: BebasNeue-Bold;
+  /* font-size: 40px; */
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: 1px solid black;
+  float: left;
+}
+.popular_left h2 {
+}
+.popular_left h3 {
+}
+.popular_right {
+  width: 45px;
+  height: 420px;
+  border: 1px solid black;
+  float: right;
+}
+.popular_right_content1 {
+  height: 195px;
+  background-image: url(../images/.popular_right_content1);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular_right_content2 {
+  height: 195px;
+  background-image: url(../images/.popular_right_content2);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* popular end */
